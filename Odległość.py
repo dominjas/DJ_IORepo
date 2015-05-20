@@ -18,5 +18,11 @@ def distance(a,b):
             current[j] = min(add, delete, change)
  
     return current[n]
+
+def dodawanie(a,b):
+    return a+b
+def odejmowanie(a,b):
+    return a-b
+
  
 print distance(a,b)
